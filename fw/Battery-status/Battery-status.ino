@@ -27,14 +27,25 @@ void loop() {
 void readRegister(uint8_t reg, String name) {
   Wire.beginTransmission(BATTERY_ADDR);
   Wire.write(reg);
-  Wire.endTransmission(false);  // restart
+  Wire.endTransmission(false);
 
   Wire.requestFrom(BATTERY_ADDR, (uint8_t)2);
   if (Wire.available() >= 2) {
     uint16_t value = Wire.read() | (Wire.read() << 8);
+
     Serial.print(name);
     Serial.print(": ");
-    Serial.println(value);
+
+    if (reg == 0x09) {
+      Serial.print(value);                  //mV
+      Serial.println(" mV");
+      Serial.print(name);
+      Serial.print(": ");
+      Serial.print(value / 1000.0, 3);      //V
+      Serial.println(" V");
+    } else {
+      Serial.println(value);
+    }
   } else {
     Serial.print(name);
     Serial.println(": no response");
