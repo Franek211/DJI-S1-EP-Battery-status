@@ -18,8 +18,14 @@ Blue SCL<br>
 Black GND<br>
 Red 3S volatge<br>
 
-2. Upload Script Battery-status.ino in fw folder
-3.a IF not work serach in google "I2C addres scanner", next upload it to UNO and watch console
-3.b next change "#define BATTERY_ADDR YOUR_ADDRESS" <- change that to your addres
-3.c re-flash Battery-status.ino
-4. Look into the console and watch your battery par on 115200 speed
+2. Upload Script Battery-status.ino in fw folder<br>
+3.a IF not work serach in google "I2C addres scanner", next upload it to UNO and watch console<br>
+3.b next change "#define BATTERY_ADDR YOUR_ADDRESS" <- change that to your addres<br>
+3.c re-flash Battery-status.ino<br>
+4. Look into the console and watch your battery par on 115200 speed<br>
+Example output:
+Voltage (mV): 10886<br>
+Current (mA): 0<br>
+Remaining (mAh): 2337<br>
+Temp (0.1°C): 2400<br>
+Status: 192<br>
