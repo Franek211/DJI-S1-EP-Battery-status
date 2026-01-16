@@ -12,7 +12,7 @@ PCAK+ = BAT+<br>
 ![alt text](https://github.com/Franek211/DJI-S1-EP-Battery-status-/blob/main/image/1000001580.jpg?raw=true)
 ![alt text](https://github.com/Franek211/DJI-S1-EP-Battery-status-/blob/main/image/1000001581.jpg?raw=true)
 ![alt text](https://github.com/Franek211/DJI-S1-EP-Battery-status-/blob/main/image/1000001582.jpg?raw=true)
-^
+^<br>
 Green SDA<br>
 Blue SCL<br>
 Black GND<br>
