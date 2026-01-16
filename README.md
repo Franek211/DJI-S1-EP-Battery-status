@@ -23,7 +23,7 @@ Red 3S volatge<br>
 3.b next change "#define BATTERY_ADDR YOUR_ADDRESS" <- change that to your addres<br>
 3.c re-flash Battery-status.ino<br>
 4. Look into the console and watch your battery par on 115200 speed<br>
-Example output:
+Example output:<br>
 Voltage (mV): 10886<br>
 Current (mA): 0<br>
 Remaining (mAh): 2337<br>
