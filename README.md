@@ -22,4 +22,4 @@ Red 3S volatge<br>
 3.a IF not work serach in google "I2C addres scanner", next upload it to UNO and watch console
 3.b next change "#define BATTERY_ADDR YOUR_ADDRESS" <- change that to your addres
 3.c re-flash Battery-status.ino
-4. Look into the console and watch your battery par
+4. Look into the console and watch your battery par on 115200 speed
